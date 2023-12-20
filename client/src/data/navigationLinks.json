@@ -1,0 +1,42 @@
+{
+    "baseLinks":[
+        {
+            "id":1,
+            "link":"Home"
+        },
+        {
+            "id":2,
+            "link":"About"
+        },
+        {
+            "id":3,
+            "link":"Contact us"
+        },
+        {
+            "id":4,
+            "link":"Services"
+        }
+    ],
+    "shopWithUs":[
+        {
+            "id":1,
+            "link":"Your account"
+        },
+        {
+            "id":2,
+            "link":"Your orders"
+        },
+        {
+            "id":3,
+            "link":"Your addresses"
+        },
+        {
+            "id":4,
+            "link":"Your wish list"
+        },
+        {
+            "id":5,
+            "link":"Your cart"
+        }
+    ]
+}

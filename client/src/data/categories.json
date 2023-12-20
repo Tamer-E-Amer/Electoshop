@@ -1,0 +1,120 @@
+{
+  "categories": [
+    {
+      "id": 123398732809,
+      "title": "smartphones",
+      "icon": "mobilephone.png",
+      "hasSubCateogry": 1,
+      "link":"/products/cat/smartphones",
+      "subCategories": [
+        {
+          "id": 1,
+          "subCategoryTitle": "samsung",
+          "img": "/img/samsung.png"
+        },
+        {
+          "id": 2,
+          "subCategoryTitle": "huawei",
+          "img": "/img/huawei.png"
+        },
+        {
+          "id": 3,
+          "subCategoryTitle": "oppo",
+          "img": "/img/oppo.png"
+        },
+        {
+          "id": 4,
+          "subCategoryTitle": "iphone",
+          "img": "/img/iphone.png"
+        }
+      ]
+    },
+    {
+      "id": 123398736509,
+      "title": "computers",
+      "icon": "laptop.png",
+      "hasSubCateogry": 1,
+      "link":"/products/cat/computers",
+      "subCategories": [
+        {
+          "id": 1,
+          "subCategoryTitle": "dell",
+          "img": "/img/dell.png"
+        },
+        {
+          "id": 2,
+          "subCategoryTitle": "hp",
+          "img": "/img/hp.png"
+        },
+        {
+          "id": 3,
+          "subCategoryTitle": "acer",
+          "img": "/img/acer.png"
+        },
+        {
+          "id": 4,
+          "subCategoryTitle": "apple",
+          "img": "/img/imac.png"
+        }
+      ]
+    },
+    {
+      "id": 152398732809,
+      "title": "smart watches",
+      "icon": "smartwatch.png",
+      "hasSubCateogry": 1,
+      "link":"/products/cat/smart watches",
+      "subCategories": [
+        {
+          "id": 1,
+          "subCategoryTitle": "apple",
+          "img": "/img/iwatch.png"
+        },
+        {
+          "id": 2,
+          "subCategoryTitle": "huawei",
+          "img": "/img/huaweiwatch.png"
+        },
+        {
+          "id": 3,
+          "subCategoryTitle": "samsung",
+          "img": "/img/samsungwatch.png"
+        },
+        {
+          "id": 4,
+          "subCategoryTitle": "oppo",
+          "img": "/img/oppowatch.png"
+        }
+      ]
+    },
+    {
+      "id": 123398892809,
+      "title": "cameras",
+      "icon": "camera.png",
+      "hasSubCateogry": 1,
+      "link":"/products/cat/cameras",
+      "subCategories": [
+        {
+          "id": 1,
+          "subCategoryTitle": "lenses",
+          "img": "/img/lenses.png"
+        },
+        {
+          "id": 2,
+          "subCategoryTitle": "nikon",
+          "img": "/img/niconCategory.png"
+        },
+        {
+          "id": 3,
+          "subCategoryTitle": "sony",
+          "img": "/img/sonycategory.png"
+        },
+        {
+          "id": 4,
+          "subCategoryTitle": "canon",
+          "img": "/img/canonCategory.png"
+        }
+      ]
+    }
+  ]
+}

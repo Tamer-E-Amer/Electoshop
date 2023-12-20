@@ -1,0 +1,33 @@
+{
+    "products":[
+        {
+            "id":"1",
+            "name":"hp laptop",
+            "img":"/img/trending1.png",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla rerum ex omnis. Provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla rerum ex omnis. Provident",
+            "isNew":0
+        },
+        {
+            "id":"2",
+            "name":"sony camera x92",
+            "img":"/img/trending2.png",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla rerum ex omnis. Provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla rerum ex omnis. Provident",
+            "isNew":1
+        },
+        {
+            "id":"3",
+            "name":"huawei smart watch",
+            "img":"/img/trending3.png",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla rerum ex omnis. Provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla rerum ex omnis. Provident",
+            "isNew":1
+        },
+        {
+            "id":"4",
+            "name":"I Mac pro",
+            "img":"/img/trending4.png",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla rerum ex omnis. Provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla rerum ex omnis. Provident",
+            "isNew":0
+        }
+    ]
+    
+}

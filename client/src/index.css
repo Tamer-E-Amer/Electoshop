@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* geral settings */
+
+.flex-center{
+    @apply  items-center justify-center
+}
+
+.flex-between{
+    @apply  items-center justify-between
+}
+
+.flex-start{
+    @apply  items-start justify-center
+}
+.flex-end{
+    @apply  items-end justify-end
+}
+
+.smooth-transition{
+    @apply transition-all duration-300
+}
+
+/* Buttons */
+.button{
+    @apply text-sm font-semibold border-[1px] border-shop-gray-border w-full h-[50px] uppercase flex flex-center gap-2 smooth-transition 
+}
+
+.primary {
+    @apply text-white bg-shop-bg-footer hover:bg-shop-gray-dark
+}
+.secondery {
+    @apply  text-shop-gray-dark   hover:bg-shop-bg-gray-light  
+}
+
+.alert{
+    @apply text-white bg-red-600 hover:bg-red-400
+}
