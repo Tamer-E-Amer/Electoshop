@@ -8,7 +8,7 @@ import useFetch from "../../hooks/useFetch";
 import { priceComparisonSchema } from "../../validationSchemas/priceComparisonSchema";
 import { AiOutlineClose } from "react-icons/ai";
 import { CiFilter } from "react-icons/ci";
-const Productscd = () => {
+const Products = () => {
   /**
    * States
    */
