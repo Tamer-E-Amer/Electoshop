@@ -13,7 +13,7 @@ const CategoryMenu = ({ screen }) => {
       className={` ${
         screen == "smallAndMobile"
           ? "invisible -left-[320px] group-hover:visible absolute top-[70px] group-hover:-left-4 sm:group-hover:-left-20 w-[240px] h-screen py-4 bg-shop-bg-gray z-50 smooth-transition"
-          : "w-[320px]  bg-shop-bg-gray h-0 absolute left-0 top-[70px] z-50 group-hover:h-screen smooth-transition"
+          : "w-[320px]  bg-shop-bg-gray h-0 absolute left-0 top-[70px] z-50 group-hover:h-screen smooth-transition "
       } `}
     >
       <div className="relative w-full h-[100%] ">
@@ -59,7 +59,9 @@ const CategoryMenu = ({ screen }) => {
                     <div
                       className="w-full h-12 text-shop-gray-dark text-sm font-semibold flex flex-center hover:bg-shop-blue-dark hover:text-white capitalize"
                       onClick={() => {
-                        navigate(cat.link);
+                        navigate(
+                          `/products/cat/${cat.title}/${sub.subCategoryTitle}`
+                        );
                       }}
                     >
                       {sub.subCategoryTitle}

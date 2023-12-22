@@ -5,7 +5,6 @@
       "title": "smartphones",
       "icon": "mobilephone.png",
       "hasSubCateogry": 1,
-      "link":"/products/cat/smartphones",
       "subCategories": [
         {
           "id": 1,
@@ -34,7 +33,6 @@
       "title": "computers",
       "icon": "laptop.png",
       "hasSubCateogry": 1,
-      "link":"/products/cat/computers",
       "subCategories": [
         {
           "id": 1,
@@ -63,7 +61,6 @@
       "title": "smart watches",
       "icon": "smartwatch.png",
       "hasSubCateogry": 1,
-      "link":"/products/cat/smart watches",
       "subCategories": [
         {
           "id": 1,
@@ -92,7 +89,6 @@
       "title": "cameras",
       "icon": "camera.png",
       "hasSubCateogry": 1,
-      "link":"/products/cat/cameras",
       "subCategories": [
         {
           "id": 1,

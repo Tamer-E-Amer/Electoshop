@@ -45,6 +45,10 @@ export function App() {
           element: <Products />,
         },
         {
+          path: "/products/cat/:catID/:subCatID",
+          element: <Products />,
+        },
+        {
           path: "/products/:id",
           element: <Product />,
         },

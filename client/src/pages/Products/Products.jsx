@@ -8,7 +8,7 @@ import useFetch from "../../hooks/useFetch";
 import { priceComparisonSchema } from "../../validationSchemas/priceComparisonSchema";
 import { AiOutlineClose } from "react-icons/ai";
 import { CiFilter } from "react-icons/ci";
-const Products = () => {
+const Productscd = () => {
   /**
    * States
    */
@@ -21,8 +21,9 @@ const Products = () => {
   /**
    * Variables
    */
-  const params = useParams();
-  const { loading, data } = useFetch(params.catID);
+  const { catID, subCatID } = useParams();
+  console.log("id", catID, "sub", subCatID);
+  const { loading, data } = useFetch(catID, subCatID);
   const {
     register,
     handleSubmit,
@@ -33,7 +34,7 @@ const Products = () => {
 
   // category of the current page
   const category = categoriesData.categories.find((c) => {
-    if (c.title === params.catID) {
+    if (c.title === catID) {
       return c;
     }
   });
@@ -132,7 +133,7 @@ const Products = () => {
   ///////////////////////////////////////////////////////////////////////////////////
   return (
     <>
-      <PageHeader title={params.catID} />
+      <PageHeader title={catID} />
       {/* filter and sort section with mobile */}
       <div className="sticky top-[60px] z-40">
         <div className=" text-sm font-semibold w-full px-8 h-[40px] bg-shop-bg-gray-light mb-2 sm:hidden  flex flex-between  ">
