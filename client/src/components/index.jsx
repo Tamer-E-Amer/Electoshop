@@ -24,3 +24,4 @@ export { default as Button } from "./util/ui/Button/Button.jsx";
 export { default as CartItem } from "./cart/CartItem/CartItem.jsx";
 export { default as Filters } from "./products/Filters.jsx";
 export { default as ProductsList } from "./products/ProductsList.jsx";
+export { default as FilterAndSorting } from "./products/FilterAndSorting.jsx";

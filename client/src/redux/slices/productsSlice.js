@@ -1,32 +1,30 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  data: null,
-  error: null,
-  status: "loading", // loading, succeeded or failed
+  sort: "asc",
+  filteredProductsByCategories: [],
+  filteredProductsByPrice: [],
 };
-const productSlice = createSlice({
+
+const productsSlice = createSlice({
   name: "products",
   initialState,
   reducers: {
-    fetchProductDataStart: (state) => {
-      state.status = "loading";
+    setSort: (state, action) => {
+      state.sort = action.payload;
     },
-    fetchProductsDataSccess: (state, action) => {
-      state.status = "succeeded";
-      state.data = action.payload;
-      state.error = null;
+    setFilteredProductsByCategories: (state, action) => {
+      state.filteredProductsByCategories = action.payload;
     },
-    fetchProductsDataFailure: (state, action) => {
-      state.status = "failed";
-      state.error = action.payload;
+    setFilteredProductsByPrice: (state, action) => {
+      state.filteredProductsByPrice = action.payload;
     },
   },
 });
 
-const {
-  fetchProductDataStart,
-  fetchProductsDataSccess,
-  fetchProductsDataFailure,
-} = productSlice.actions;
-export default productSlice.reducer;
+export const {
+  setSort,
+  setFilteredProductsByCategories,
+  setFilteredProductsByPrice,
+} = productsSlice.actions;
+export default productsSlice.reducer;
